@@ -1,0 +1,39 @@
+.howitworks {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+    margin-bottom: 13rem;
+}
+
+.nasilCalisir {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nasilCalisir > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nasilCalisir > :nth-child(2) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+
+.cards {
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+.s-blur2 {
+    left: 14rem;
+    top: 8rem;
+}
