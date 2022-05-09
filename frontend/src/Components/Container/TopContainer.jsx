@@ -1,6 +1,8 @@
 import React from 'react'
 import { BiSearchAlt } from "react-icons/bi";
-import { FaBell, FaChevronDown } from "react-icons/fa";
+import { FaBell } from "react-icons/fa";
+import Student from '../../img/student.jpg'
+
 
 function TopContainer() {
   return (
@@ -17,13 +19,14 @@ function TopContainer() {
           </i>
 
           <div className="profileImage">
-
+            <img src={Student} alt=''></img>
+          
           </div>
 
-          <p className="profileName">Merve Bilgin</p>
-          <i className="menuChevron" id='menuChevron'>
+          <p className="profileName">Ayşe Gezici</p>
+          {/*<i className="menuChevron" id='menuChevron'>
             <FaChevronDown/>
-          </i>
+  </i>*/}
 
 
         </div>
