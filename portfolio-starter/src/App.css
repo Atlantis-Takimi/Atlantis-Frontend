@@ -1,6 +1,6 @@
 :root
 {
-  --yellow: #F5C32C;
+    --yellow: #F5C32C;
     --pink : #FF6456;
     --orange : #FCA61F;
     --black : #242D49;
@@ -34,8 +34,3 @@
   color: var(--pink);
   border: 1px solid var(--pink);
 }
-
-
-  
-
-  
