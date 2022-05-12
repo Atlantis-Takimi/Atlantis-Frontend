@@ -1,9 +1,26 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./MainContainer.css"
 import Banner from "../../img/banner.jpg"
 import { FaChevronDown } from "react-icons/fa";
 
 function MainContainer() {
+
+  useEffect(() =>{
+    const menuTarget = document.getElementById("menuChevron");
+    const mainContainer = document.getElementById("mainContainer");
+
+    menuTarget.addEventListener('mouseenter', () => {
+      menuTarget.style.transform = "rotate(180deg)";
+      mainContainer.style.transform = "translateX(0px)";
+    });
+
+    mainContainer.addEventListener('mouseleave', () => {
+      menuTarget.style.transform = "rotate(0deg)";
+      mainContainer.style.transform = "translateX(-380px)";
+    });
+
+  }, [] );
+
   return (
     <div className='mainContainer'>
 
@@ -36,10 +53,11 @@ function MainContainer() {
             <div className="cards">
 
               <p className='filtersName'>
-                Sorulan Sorular
-                <i className="menuChevron" id='menuChevron'>
+              <i className="menuChevron" id='menuChevron'>
                   <FaChevronDown/>
                 </i>
+                Sorulan Sorular
+                
 
                 <div className="mainContainer" id="mainContainer">
                   <ul>
