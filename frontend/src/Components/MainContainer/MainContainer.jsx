@@ -3,6 +3,8 @@ import "./MainContainer.css"
 import Banner from "../../img/banner.jpg"
 import { FaChevronDown } from "react-icons/fa";
 import CardMain from './CardMain';
+import MainRightTop from './MainRightTop';
+import MainRightBottom from './MainRightBottom';
 
 function MainContainer() {
 
@@ -67,15 +69,6 @@ function MainContainer() {
                 </div>
               </p>
 
-             {/*} <div className="filters">
-                <div className="popular">
-                  <p className='filtersName'>Sorulan Sorular<i className="menuChevron" id='menuChevron'>
-                    <FaChevronDown/>
-                  </i></p>
-                </div>
-
-              </div>*/}
-
               <main>
                 <CardMain title={"İlker Atik"} tick={"10"}/>
                 <CardMain title={"Beyza Aktürk"} tick={"20"}/>
@@ -87,7 +80,10 @@ function MainContainer() {
               </main>
             </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <MainRightTop/>
+          <MainRightBottom/>
+        </div>
     </div>
   )
 }
