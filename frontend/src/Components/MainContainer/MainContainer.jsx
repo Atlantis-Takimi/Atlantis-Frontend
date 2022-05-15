@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import "./MainContainer.css"
 import Banner from "../../img/banner.jpg"
 import { FaChevronDown } from "react-icons/fa";
+import CardMain from './CardMain';
 
 function MainContainer() {
 
@@ -57,8 +58,6 @@ function MainContainer() {
                   <FaChevronDown/>
                 </i>
                 Sorulan Sorular
-                
-
                 <div className="mainContainer" id="mainContainer">
                   <ul>
                     <li>Tüm soruları görüntüle</li>
@@ -76,6 +75,16 @@ function MainContainer() {
                 </div>
 
               </div>*/}
+
+              <main>
+                <CardMain title={"İlker Atik"} tick={"10"}/>
+                <CardMain title={"Beyza Aktürk"} tick={"20"}/>
+                <CardMain title={"Aynur Çelebi"} tick={"30"}/>
+                <CardMain title={"İlker Atik"} tick={"10"}/>
+                <CardMain title={"Beyza Aktürk"} tick={"20"}/>
+                <CardMain title={"Aynur Çelebi"} tick={"30"}/>
+
+              </main>
             </div>
         </div>
         <div className="right"></div>

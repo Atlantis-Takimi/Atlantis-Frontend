@@ -130,9 +130,9 @@
 
 .mainContainer .left .cards .mainContainer ul li {
     list-style: none;
-    margin: 5px 0;
+    margin: 5px 0px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     color: #737580;
     text-align: left;
@@ -144,8 +144,83 @@
     transition: 0.3s;
 }
 
-.mainContainer .right {
-    width: calc(100% - 70%);
+.mainContainer .left .cards main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainContainer .left .cards main .card_main {
+    background:#252041;
+    border-radius: 0.5em;
+    overflow-y: hidden;
+    max-width: 399px;
+    padding-bottom: 20px;
+    margin: 30px 10px;
+}
+
+.mainContainer .left .cards main .card_main .card_main_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.mainContainer .left .cards main .card_main .card_main_name p {
+    color: #e9e9ec;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
+.mainContainer .left .cards main .card_main .card_main_name .card_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .left .cards main .card_main .card_main_name .card_icon i {
+    color: #e9e9ec;
+    text-shadow: 3px 5px 20px rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+}
+
+.mainContainer .left .cards main .card_main .card_main_name .card_icon i span {
+    color: #e9e9ec;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.mainContainer .left .cards main .card_main .stats {
+    text-align: justify;
+    margin: 15px 5px;
+}
+
+.mainContainer .left .cards main .card_main .stats p {
+    color: #DC3545; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mainContainer .left .cards main .card_main .stats span {
+    display: block;
+    color:#e9e9ec;
+    font-size: 14px;
+}
+
+.mainContainer .left .cards main .card_main .card_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.mainContainer .left .cards main .card_main .card_button .btn{
+    font-size: 12px !important;
+}
+
+.mainContainer .right {
+    width: calc(100% - 70%);
+}

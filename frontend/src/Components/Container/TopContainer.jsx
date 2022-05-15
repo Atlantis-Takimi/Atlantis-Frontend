@@ -23,7 +23,7 @@ function TopContainer() {
           
           </div>
 
-          <p className="profileName">Ayşe Gezici</p>
+          <p className="profileName">Merve Bilgin</p>
           {/*<i className="menuChevron" id='menuChevron'>
             <FaChevronDown/>
   </i>*/}
