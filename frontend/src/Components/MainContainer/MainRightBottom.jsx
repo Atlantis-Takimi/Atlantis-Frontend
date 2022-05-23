@@ -1,4 +1,5 @@
 import React from 'react'
+import Events from './Events'
 
 function MainRightBottom() {
   return (
@@ -8,19 +9,20 @@ function MainRightBottom() {
         {/*<a href='#Etkinlikler'>Tümünü Göster</a>*/}
       </div>
 
-      <div className="events">
-        <div className="eventsImg"></div>
+      {Events &&
+        Events.map((events) => (
+          <div className="events" key={events?.id}>
 
-          <a href="#btn" className="button1 btn">
-            MART <br/>3
-          </a>
+              <a href="#btn" className="button1 btn">
+                {events?.events_date}<br/>{events?.events_day}
+              </a>
 
-          <p className="eventsName">
-            {" "}
-            Sample Name Sample Name<span>Mustafa Ulaş</span>
-          </p>
+              <p className="eventsName">            
+                {events?.events_name}<span>{events?.user_name}</span>
+              </p>
         
-      </div>
+          </div>
+      ))}
       
       <div className="bottomName">
         <a href='#Etkinlikler'>Tümünü Göster</a>
