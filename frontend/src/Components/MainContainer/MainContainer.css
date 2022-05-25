@@ -335,3 +335,31 @@
     }
 
 }
+
+@media screen and (min-width : 525px)
+and (max-width : 950px) {
+    .mainContainer {
+        height: calc(100% - 25px);
+    }
+
+    .mainContainer .left {
+        width: calc(100% - 30%);
+    }
+
+    .mainContainer .right {
+        width: calc(100% - 60%);
+    }
+
+    .mainContainer .left .cards main .card_main {
+        max-width: 230px;
+        margin: 20px 5px;
+    }
+   
+    .mainContainer .left .cards .filters {
+        padding: 0;
+    }
+
+    .mainContainer .right .topCard .lessons {
+        padding: 0;
+    }
+}
