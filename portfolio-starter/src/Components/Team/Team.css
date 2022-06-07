@@ -1,0 +1,30 @@
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 50vh;
+    margin-bottom: 8rem;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-circle {
+    width: 220px;
+	height: 220px;
+	border-radius: 220px;
+	border: 6px solid #fff;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+.team-content span {
+
+    margin-left: 28.5%; 
+
+}
