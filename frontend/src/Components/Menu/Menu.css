@@ -12,7 +12,7 @@ menu {
 
 menu img{
     width: 3.3em;
-    padding-top: 30px;
+    padding-top: 38px;
 }
 
 menu ul{
@@ -25,7 +25,7 @@ menu ul{
 
 menu ul li{
     list-style: none;
-    margin: 15px 0;
+    margin: 16px 0;
     position: relative;
     width: 100%;
     text-align: center;
