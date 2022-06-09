@@ -7,7 +7,7 @@
 
 .mainContainer .left {
     width: calc(100% - 30%);
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     transition: all 0.3s cubic-bezier(0.17, 0.81, 0.38, 1.39);
 }
 
@@ -149,15 +149,22 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 50vh;
 }
 
 .mainContainer .left .cards main .card_main {
-    background:#252041;
+    background: #252041;
     border-radius: 0.5em;
-    overflow-y: hidden;
-    max-width: 399px;
+    max-width: 390px;
     padding-bottom: 20px;
     margin: 30px 10px;
+    /* background:#252041;
+    border-radius: 0.5em;
+    overflow-y: hidden;
+    max-width: 390px;
+    padding-bottom: 20px;
+    margin: 30px 10px; */
 }
 
 .mainContainer .left .cards main .card_main .card_main_name {

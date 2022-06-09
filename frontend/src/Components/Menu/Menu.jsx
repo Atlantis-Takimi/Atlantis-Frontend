@@ -70,7 +70,8 @@ function Menu() {
   }, []);
   
   return(
-    <menu>
+    // <div className='MenuContainer'>
+      <menu>
       <Link className='' to="/">
         <img src={logo} alt=''/>
         {/* <img src={logo} width='70' alt=''></img> */}
@@ -78,7 +79,7 @@ function Menu() {
         
       <ul id='mainMenu' > 
         <li>
-          <a href='/mainContainer' exact element>{<FaDelicious />}</a>
+          <a href='/container' exact="true" >{<FaDelicious />}</a>
         </li>
         <li>
           <a href='/lessons'>{<AiFillBook/>}</a>
@@ -107,6 +108,8 @@ function Menu() {
       </ul>
        
     </menu>
+    // </div>
+    
     )
 }
 
