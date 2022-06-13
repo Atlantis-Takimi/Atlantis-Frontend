@@ -8,57 +8,60 @@ import {BsMouse} from 'react-icons/bs'
 function Profile() {
   return (
 
-  <div className='container'>
-    <div id='home' className='container header-container'>
-      <h3>
-        <p>Merve Bİlgin</p>
-        180290001
-        <h2>Yazılım Mühendisliği</h2>
-      </h3>
-    </div>
-
-    <div id='home' className='container home-container'>
-      <div className='logo'>
-        <div className="main-img">
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-        </div>
-
+    <div className='container'>
+      <div id='home' className='container header-container'>
         <img src={img} alt='' />
+        <h3>
+          <p>YASEMİN İLK</p>
+          180290001
+          <h2>YAZILIM MÜHENDİSLİĞİ</h2>
+        </h3>
       </div>
 
-      <a href="#footer" className="scroll-down">
-        <hr/>
-        <h5>scroll down</h5>
-        <BsMouse className='scroll'/>
-        <hr/>
-      </a>
-      <h2><span>About Me</span> <br/>
-        <p>
-          Lorem ipsum dolar sit Lorem ipsum dolar sit
-          Lorem ipsum dolar sit Lorem ipsum dolar sit
-          Lorem ipsum dolar sit Lorem ipsum dolar sit
-          Lorem ipsum dolar sit Lorem ipsum dolar sit
-        </p>
-      </h2>
-    </div>
+      <div id='home' className='container home-container'>
+        <div className='logo'>
+          <div className="main-img">
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+            <span className="circle"></span>
+          </div>
 
-    <div className='container' button-contain>
-      <a href='#about' className='btn pri'>
-        Learn more
-      </a>
-      <a href='#contact' className='btn sec'>
-        Get in touch
-      </a>
+          {/* <img src={img} alt='' /> */}
+        </div>
 
-    </div>
-  </div>   
+        <a href="#footer" className="scroll-down">
+          <hr/>
+          <h5>scroll down</h5>
+          <BsMouse className='scroll'/>
+          <hr/>
+        </a>
+        <h2><span>About Me</span> <br/>
+          <p>
+            Lorem ipsum dolar sit Lorem ipsum dolar sit
+            Lorem ipsum dolar sit Lorem ipsum dolar sit
+            Lorem ipsum dolar sit Lorem ipsum dolar sit
+            Lorem ipsum dolar sit Lorem ipsum dolar sit
+          </p>
+        </h2>
+
+        <div className='container button-container'>
+          <a href='#about' className='btn-pri'>
+            Learn more
+          </a>
+          <a href='#contact' className='btn-sec'>
+            Get in touch
+          </a>
+        </div>
+      </div>
+
+      
+      
+    </div>   
   )
 }
 
@@ -67,4 +70,4 @@ function Profile() {
 //   toggle.classList.toggle('active')
 // });
 
-export default Profile
+export default Profile;
