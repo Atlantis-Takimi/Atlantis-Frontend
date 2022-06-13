@@ -79,7 +79,7 @@ function Menu() {
         
       <ul id='mainMenu' > 
         <li>
-          <a href='/container' exact="true" >{<FaDelicious />}</a>
+          <a href='/profile' >{<FaDelicious />}</a>
         </li>
         <li>
           <a href='/lessons'>{<AiFillBook/>}</a>

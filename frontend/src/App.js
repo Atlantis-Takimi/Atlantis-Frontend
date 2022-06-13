@@ -15,12 +15,14 @@ import Menu from './Components/Menu/Menu'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Academics from './Pages/Academics'
+import Profile from './Pages/Profile/Profile'
+import Academics from './Pages/Academics/Academics'
 import Events from './Pages/Events'
 import HelpCenter from './Pages/HelpCenter'
 import Lessons from './Pages/Lessons'
 import QuestionsAnswers from './Pages/QuestionsAnswers'
 import Settings from './Pages/Settings' 
+
 
 
 function App() {
@@ -29,10 +31,13 @@ function App() {
     <>
       <BrowserRouter>
           <Menu/>
+          
           {/* <MainContainer/> */}
           
           <Routes>
-            <Route path='/container' exact="true" element={<Container/>}/>
+            <Route path='/' exact="true" element={<Container/>}/>
+            <Route path='/profile' element={<Profile/>}/>
+            {/* <Route path='./profile' exact="true" element={<Profile/>}/> */}
             {/* <Route path='/container' exact element={<MainContainer/>}/> */}
             <Route path='/lessons' element={<Lessons/>}/> 
             <Route path='/questionsAnswers' element={<QuestionsAnswers/>}/>

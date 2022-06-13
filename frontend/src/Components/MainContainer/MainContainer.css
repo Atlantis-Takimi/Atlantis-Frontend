@@ -150,13 +150,13 @@
     align-items: center;
     flex-wrap: wrap;
     overflow-y: scroll;
-    height: 50vh;
+    height: 37vh;
 }
 
 .mainContainer .left .cards main .card_main {
     background: #252041;
     border-radius: 0.5em;
-    max-width: 390px;
+    max-width: 380px;
     padding-bottom: 20px;
     margin: 30px 10px;
     /* background:#252041;
