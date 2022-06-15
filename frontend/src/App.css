@@ -9,8 +9,6 @@
   display: none;
 }
 
-
-
 @media screen and (max-width: 525px) {
   .App {
     overflow-x: hidden;

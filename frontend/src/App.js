@@ -18,7 +18,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profile from './Pages/Profile/Profile'
 import Academics from './Pages/Academics/Academics'
 import Events from './Pages/Events'
-import HelpCenter from './Pages/HelpCenter'
+import HelpCenter from './Pages/HelpCenter/HelpCenter'
 import Lessons from './Pages/Lessons'
 import QuestionsAnswers from './Pages/QuestionsAnswers'
 import Settings from './Pages/Settings/Settings' 
