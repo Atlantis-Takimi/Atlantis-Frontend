@@ -38,7 +38,7 @@ function Profile() {
 
         <a href="#footer" className="scroll-down">
           <hr/>
-          <h5>scroll down</h5>
+          <h5>aşağı kaydırın</h5>
           <BsMouse className='scroll'/>
           <hr/>
         </a>
@@ -57,10 +57,6 @@ function Profile() {
           </a>
         </div>
       </div>
-
-      {/* <div id='about' className='container about-container'>
-
-      </div> */}
 
       {/* Contact */}
 
