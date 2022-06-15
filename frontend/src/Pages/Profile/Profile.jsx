@@ -35,7 +35,7 @@ function Profile() {
             Lorem ipsum dolar sit Lorem ipsum dolar sit
           </p>
         </h2>
-
+        <br></br><br></br><br></br><br></br><br></br>
         <div className='button-container'>
           <a href='#about' className='btn-pri'>
             Düzenle
