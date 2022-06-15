@@ -1,0 +1,118 @@
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    backdrop-filter: blur(20px); 
+}
+
+@keyframes fade-in {
+    0%{transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.header-container h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: Poppins;
+}
+
+.header-container h3 p {
+    font-size: 15px;
+}
+
+.header-container h3 p span {
+    color: var(--color-pri);
+    font-size: 20px;
+}
+
+.header-container h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--color-pri);
+    font-family: "Open Sans";
+    letter-spacing: 1px;
+}
+
+.header-container img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #DC3545;
+    transform: translate(-200px);
+}
+
+/* ---- */
+
+.settings-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 80vh;
+    padding: 100px;
+}
+
+.settings-container h1 {
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: 'Open Sans Condansed';
+    font-weight: 400;
+    color: var(--color-pri);
+}
+
+.settings-container .settings-links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.settings-container .settings {
+    position: relative;
+    height: 200px;
+    width: 35%;
+    border: 3px solid #DC3545;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background .3s ease, transform .2s ease;
+}
+
+.settings-container .settings:hover {
+    background: rgba(255, 2555, 255, 0.096);
+    transform: scale(1.1);
+    color: #DC3545;
+}
+
+.settings-container .settings h2 {
+    position: relative;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    text-align: center;
+    color: black;
+}
+
+.settings-container .settings h2 span {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 3px;
+    color: black;
+}

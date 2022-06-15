@@ -21,7 +21,7 @@ import Events from './Pages/Events'
 import HelpCenter from './Pages/HelpCenter'
 import Lessons from './Pages/Lessons'
 import QuestionsAnswers from './Pages/QuestionsAnswers'
-import Settings from './Pages/Settings' 
+import Settings from './Pages/Settings/Settings' 
 
 
 

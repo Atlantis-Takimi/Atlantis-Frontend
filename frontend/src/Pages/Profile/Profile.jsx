@@ -21,21 +21,6 @@ function Profile() {
       </div>
 
       <div id='home' className='container home-container'>
-        {/* <div className='logo'>
-          <div className="main-img">
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-            <span className="circle"></span>
-          </div>
-
-          <img src={img} alt='' />
-        </div> */}
-
         <a href="#footer" className="scroll-down">
           <hr/>
           <h5>aşağı kaydırın</h5>
@@ -82,10 +67,5 @@ function Profile() {
     </div>   
   )
 }
-
-// const toggle = document.querySelector('.main-img');
-// toggle.addEventListener('click', () => {
-//   toggle.classList.toggle('active')
-// });
 
 export default Profile;
